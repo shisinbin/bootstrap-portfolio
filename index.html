@@ -1,27 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- required meta tags -->
-    <meta charset="UTF-8">
-    <!-- following comes with emmet but is not included in the starter template on the bootsrap website, and in fact might act in conflict, so i'm commenting out -->
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- required meta tags -->
+  <meta charset="UTF-8">
+  <!-- following comes with emmet but is not included in the starter template on the bootsrap website, and in fact might act in conflict, so i'm commenting out -->
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- bootstrap 4.6 CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!-- bootstrap 4.6 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-    <!-- custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!-- custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>shisinbin // Web Developer</title>
+  <title>shisinbin // Web Developer</title>
 </head>
-<body>
-    <!-- my code here -->
-    Here is my portfolio, but Bootstrap-y.
 
-    <!-- JavaScript: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<body>
+
+  <main class="container-fluid">
+
+    <!-- splash -->
+    <section class="row">
+
+      <!-- hello col -->
+      <div class="col-4 p-0 hello d-flex flex-column">
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="flex-grow-1 d-flex">
+          <div class="align-self-center p-5">
+            <h1>Shivraj Binepal</h1>
+            <h2>Web Developer</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- about me col -->
+      <div class="col-4 p-0">
+        <img src="./assets/img/profile_bw_resized.png" width="100%" alt="image of me">
+        <!-- <div class="container-fluid p-0 d-flex flex-column justify-content-center"> -->
+
+        <div class="p-5 text-container">
+          <h2>About Me</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda beatae amet eum iusto
+            eveniet?</p>
+        </div>
+      </div>
+
+      <!-- contact col -->
+      <div class="col-4 p-0">
+        <div class="text-container p-5">
+          <h2>Contact Me</h2>
+          <div class="d-flex justify-content-between">
+            <img src="./assets/img/github.png" width="10%" alt="">
+            <img src="./assets/img/email2.png" width="10%" alt="">
+            <img src="./assets/img/twitter-sign.png" width="10%" alt="">
+          </div>
+        </div>
+        <img src="./assets/img/mood_resized.png" width="100%" alt="">
+      </div>
+    </section>
+  </main>
+
+  <!-- work -->
+  <section class="container-fluid">
+
+  </section>
+
+  <!-- skills -->
+  <section class="container-fluid">
+
+  </section>
+
+  <!-- about -->
+  <section class="container-fluid">
+
+  </section>
+
+  <!-- footer -->
+
+
+  <!-- JavaScript: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
