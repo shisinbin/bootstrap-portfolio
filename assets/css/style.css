@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap'); */
 
 body {
     margin: 0;
@@ -16,13 +16,57 @@ img {
     max-width: 100%;
 }
 
+/* panel 1 */
+nav a {
+    color: #a8a8a8 !important;
+}
+nav a:hover {
+    color:#eeeee7 !important;
+}
 .hello {
     color: #a8a8a8;
     background-color: #323230;
-    padding: 0;
+}
+.hello .card {
+    background: #323230;
 }
 
 .text-container {
     color: #323230;
+}
+.text-container a {
+    color: #323230;
+}
+.text-container a:hover {
+    color: #a8a8a8 !important;
+}
 
+.portfolio img {
+    height: 300px !important;
+    object-fit: cover !important;
+    width: 100% !important;
+}
+.featured img {
+    height: 400px !important;
+}
+
+.work .featured img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0 !important;
+}
+
+.work .secondary img {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0 !important;
+}
+
+.work {
+    max-width: 1200px !important;
+}
+
+.btn-outline-secondary {
+    color: #323230 !important;
+    border-color: #323230 !important;
 }
