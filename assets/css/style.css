@@ -16,6 +16,12 @@ img {
     max-width: 100%;
 }
 
+.jumbotron {
+    padding: 0 !important;
+    margin: 0 !important;
+    background: #eeeee7 !important;
+}
+
 /* panel 1 */
 nav a {
     color: #a8a8a8 !important;
@@ -31,21 +37,18 @@ nav a:hover {
     background: #323230;
 }
 
+
 .text-container {
     color: #323230;
 }
 .text-container a {
     color: #323230;
+    font-size: 3rem;
 }
 .text-container a:hover {
     color: #a8a8a8 !important;
 }
 
-.portfolio img {
-    height: 300px !important;
-    object-fit: cover !important;
-    width: 100% !important;
-}
 .featured img {
     height: 400px !important;
 }
@@ -62,11 +65,42 @@ nav a:hover {
     border-radius: 0 !important;
 }
 
-.work {
+.work, .skills-container {
     max-width: 1200px !important;
+    margin: 0 auto;
 }
 
-.btn-outline-secondary {
-    color: #323230 !important;
-    border-color: #323230 !important;
+.work .card {
+    transition: all 0.4s;
+}
+.work .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 5px #aaa;
+}
+
+.skills {
+    margin-top: 30px;
+    background: #323230;
+    color: #a8a8a8;
+}
+
+.skills p {
+    font-size: 1.2rem;
+}
+
+.skills .webdev-icons i {
+    font-size: 3rem;
+}
+
+.skills-card {
+    color:#323230;
+    margin: 20px;
+    /* height: 100%; */
+}
+.skills-card .card-header {
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width:991px) {
+
 }

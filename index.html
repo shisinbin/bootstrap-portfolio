@@ -14,7 +14,9 @@
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
   <!-- font awesome 5.15.4 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- poppins font -->
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -27,129 +29,88 @@
 
 <body>
 
-  <section class="container-fluid">
+  <div class="jumbotron jumbotron-fluid">
 
-    <!-- splash -->
-    <div class="row">
+    <section class="container-fluid">
 
-      <!-- hello col -->
-      <div class="col-lg-4 col-md-6 col-sm-12 p-0 hello d-flex flex-column">
+      <div class="row">
 
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light pl-5 pt-3">
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        <!-- hello col -->
+        <div class="col-lg-4 col-md-6 col-sm-12 p-0 hello d-flex flex-column">
 
-        <!-- <div class="flex-grow-1 d-flex">
-          <div class="align-self-center p-5">
-            <h1 class="font-weight-bold">Shivraj Binepal</h1>
-            <h2>Web Developer</h2>
-          </div>
-        </div> -->
-        
-        <div class="flex-grow-1 d-flex">
-          <div class="card align-self-center p-5 border-0">
-            <div class="card-body">
-              <h1 class="card-title">Shivraj Binepal</h1>
-              <p class="card-text">Web Developer</p>
+          <!-- navbar -->
+          <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-light pl-5 pt-3">
+            <div class="collapse navbar-collapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
             </div>
-          </div>
-        </div>
+          </nav>
 
-      </div>
-
-      <!-- about me col -->
-      <div class="col-lg-4 col-md-6 col-sm-12 p-0">
-        <img src="./assets/img/profile_bw_resized.png" width="100%" alt="image of me">
-        <div class="p-5 text-container">
-          <h2>About Me</h2>
-          <p>I'm a novice web developer, currently working my way through a Front-End Web Development bootcamp, hoping to development my Web Dev skills in order to help change career path.</p>
-        </div>
-      </div>
-
-      <!-- contact col -->
-      <div class="col-lg-4 col-md-12 col-sm-12 p-0">
-
-        <div class="row">
-          <div class="col-lg-12 col-md-8 col-sm-8">
-            <div class="text-container p-5">
-              <h2>Get in Contact</h2>
-              <div class="d-flex justify-content-between">
-                <!-- <img src="./assets/img/github.png" width="10%" alt="">
-                <img src="./assets/img/email2.png" width="10%" alt="">
-                <img src="./assets/img/twitter-sign.png" width="10%" alt=""> -->
-                <a href="https://github.com/shisinbin"><i class="fab fa-github-square"></i></a>
-                <a href="mailto:sb1664@gmail.com"><i class="fas fa-envelope-square"></i></a>
-                <a href="https://twitter.com/shisinbin"><i class="fab fa-twitter-square"></i></a>
+          <div class="flex-grow-1 d-flex">
+            <div class="card align-self-center p-5 border-0">
+              <div class="card-body">
+                <h1 class="card-title">Shivraj Binepal</h1>
+                <p class="card-text">Web Developer</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-12 col-md-4 col-sm-4">
-            <img src="./assets/img/mood_resized.png" class="mh-75" width="100%" alt="">
+
+        </div>
+
+        <!-- about me col -->
+        <div class="col-lg-4 col-md-6 col-sm-12 p-0">
+          <img src="./assets/img/profile_bw_resized.png" width="100%" alt="profile image of me">
+          <div class="p-5 text-container" id="about">
+            <h2>About Me</h2>
+            <p>I'm a novice web developer, currently working my way through a Front-End Web Development bootcamp, hoping
+              to develop my Web Dev skills in order to help change career path.</p>
+          </div>
+        </div>
+
+        <!-- contact col -->
+        <div class="col-lg-4 col-md-12 col-sm-12 p-0">
+
+          <div class="row">
+            <div class="col-lg-12 col-md-8 col-sm-8">
+              <div class="text-container p-5 h-100 d-flex flex-column" id="contact">
+                <h2>Get in Contact</h2>
+                <div class="flex-grow-1 d-flex justify-content-between align-items-center">
+                  <!-- <img src="./assets/img/github.png" width="10%" alt="">
+                <img src="./assets/img/email2.png" width="10%" alt="">
+                <img src="./assets/img/twitter-sign.png" width="10%" alt=""> -->
+                  <a href="https://github.com/shisinbin"><i class="fab fa-github-square"></i></a>
+                  <a href="mailto:sb1664@gmail.com"><i class="fas fa-envelope-square"></i></a>
+                  <a href="https://twitter.com/shisinbin"><i class="fab fa-twitter-square"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-4 col-sm-4">
+              <img src="./assets/img/mood_resized.png" class="mh-75" width="100%"
+                alt="image of me looking wistfully into the distance">
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+
+    </section>
+
+  </div>
 
   <!-- work -->
-  <!-- <section class="portfolio container-fluid">
-    <div><h1 class="text-center mt-5">Portfolio</h1></div>
-
-    <div class="row">
-
-      <div class="featured col-12">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <img src="assets/img/refactor.png" class="img-fluid w-100" alt="refactoring code image">
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            Code Refactoring
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="row">
-          <div class="col-12">
-            <img src="assets/img/study_guide.png" class="img-fluid" alt="study guide image">
-          </div>
-          <div class="col-12">
-            Study Guide
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="row">
-          <div class="col-lg-12">
-            <img src="assets/img/library.png" alt="library web app image">
-          </div>
-          <div class="col-lg-12">
-            Library Web App
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section> -->
-
-  <!-- work redo with cards -->
   <section class="container work mw-75">
 
-    <div><h1 class="text-center mt-5 mb-3">Portfolio</h1></div>
+    <div>
+      <h1 class="text-center mt-5 mb-3" id="portfolio">Portfolio</h1>
+    </div>
 
     <div class="row">
 
@@ -159,14 +120,17 @@
         <div class="card featured mb-4 rounded-0">
           <div class="row no-gutters">
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <a href="https://shisinbin.github.io/challenge_01/"><img src="assets/img/refactor.png" class="card-img" alt="refactoring code image"></a>
+              <a href="https://shisinbin.github.io/challenge_01/"><img src="assets/img/refactor.png" class="card-img"
+                  alt="refactoring code image"></a>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 d-flex">
               <div class="card-body align-self-center">
                 <h3 class="card-title">Code Refactoring</h3>
-                <p class="card-text">Improved a webpage's accessibility by refactoring its code to include both Semantic HTML elements and alt image text.</p>
+                <p class="card-text">Improved a webpage's accessibility by refactoring its code to include both Semantic
+                  HTML elements and alt image text.</p>
                 <!-- <p class="card-text"><small class="text-muted">October 2022</small></p> -->
-                <a href="https://shisinbin.github.io/challenge_01/" class="btn btn-outline-secondary">Go to refactored webpage</a>
+                <a href="https://shisinbin.github.io/challenge_01/" class="btn btn-outline-secondary stretched-link">Go
+                  to refactored webpage</a>
               </div>
             </div>
           </div>
@@ -174,13 +138,15 @@
 
       </div>
 
+      <!-- secondary -->
       <div class="secondary col-lg-3 col-md-6 col-sm-12 mb-3 rounded-0">
         <div class="card rounded-0">
           <img src="assets/img/study_guide.png" class="card-img-top" alt="study guide image">
           <div class="card-body">
             <h5 class="card-title">Study Guide</h5>
-            <p class="card-text">Created a study guide that covers some Web Dev basics.</p>
-            <a href="#" class="btn btn-outline-secondary">Go to guide</a>
+            <p class="card-text">A study guide webpage covering some Web Dev basics.</p>
+            <a href="https://shisinbin.github.io/prework-study-guide/"
+              class="btn btn-outline-secondary stretched-link">Go to guide</a>
           </div>
         </div>
       </div>
@@ -191,7 +157,8 @@
           <div class="card-body">
             <h5 class="card-title">CSS Grid Portfolio</h5>
             <p class="card-text">A portfolio webpage created using CSS Grid and Flexbox.</p>
-            <a href="#" class="btn btn-outline-secondary">Go to portfolio</a>
+            <a href="https://shisinbin.github.io/portfolio/" class="btn btn-outline-secondary stretched-link">Go to grid
+              portfolio</a>
           </div>
         </div>
       </div>
@@ -201,38 +168,146 @@
           <img src="assets/img/library.png" class="card-img-top" alt="library web app image">
           <div class="card-body">
             <h5 class="card-title">Library Web App</h5>
-            <p class="card-text">Built and deployed a library web app using the web framework Django.</p>
-            <a href="#" class="btn btn-outline-secondary">Go to guide</a>
+            <p class="card-text">A fully built and deployed library web app created using Django.</p>
+            <a href="https://barhamlibrary.xyz/" class="btn btn-outline-secondary stretched-link">Go to web app</a>
           </div>
         </div>
       </div>
 
       <div class="secondary col-lg-3 col-md-6 col-sm-12 mb-3">
         <div class="card">
-          <img src="..." class="card-img-top" alt="dummy image">
+          <img src="https://placehold.co/600x400" class="card-img-top" alt="placeholder image">
           <div class="card-body">
-            <h5 class="card-title">To be determined</h5>
+            <h5 class="card-title">Placeholder</h5>
             <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, non.</p>
-            <a href="#" class="btn btn-outline-secondary">Go to this</a>
+            <a href="#" class="btn btn-outline-secondary stretched-link">Go to this</a>
           </div>
         </div>
       </div>
-      
+
 
     </div>
   </section>
 
   <!-- skills -->
-  <section class="container-fluid">
+  <section class="container-fluid skills py-5 px-0">
+    <div class="skills-container">
 
-  </section>
+      <h1 class="text-center" id="skills">Skills</h1>
 
-  <!-- about -->
-  <section class="container-fluid">
+      <div class="row my-5 webdev-icons">
+        <div class="col d-flex justify-content-center">
+          <i class="fab fa-html5" alt="html 5 icon"></i>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <i class="fab fa-js" alt="javascript icon"></i>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <i class="fab fa-css3-alt" alt="css 3 icon"></i>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <i class="fab fa-git" alt="git icon"></i>
+        </div>
+        <div class="col d-flex justify-content-center">
+          <i class="fab fa-react" alt="react.js icon"></i>
+        </div>
+      </div>
 
+      <p class="text-center mb-4">Below are some skills that I hope to learn from the Bootcamp.</p>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card skills-card">
+            <div class="card-header">
+              Front-end fundamentals
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col">
+                  <ul>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>UX</li>
+                    <li>Git</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>Github</li>
+                    <li>Information architecture</li>
+                    <li>User experience design</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card skills-card">
+            <div class="card-header">
+              Developing with APIs
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col">
+                  <ul>
+                    <li>Javascript framework</li>
+                    <li>DOM Manipulation</li>
+                    <li>Web-based applications</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>Data extraction and retrieval</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card skills-card">
+            <div class="card-header">
+              Modern front-end frameworks
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col">
+                  <ul>
+                    <li>Strucuring, positioning, and optimisation of web page content</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <ul>
+                    <li>React.js</li>
+                    <li>Netlify</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </section>
 
   <!-- footer -->
+
+  <footer>
+    <div class="container">
+      <div class="row justify-content-center align-items-center my-3">
+        <p class="m-0">
+          Copyright &copy; shisinbin 2022
+        </p>
+      </div>
+    </div>
+  </footer>
 
 
   <!-- JavaScript: jQuery and Bootstrap Bundle (includes Popper) -->
