@@ -1,42 +1,46 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap'); */
-
+/* resets */
 body {
     margin: 0;
     font-family: 'Poppins';
     background: #eeeee7;
 }
 
-
-/* global */
-
-/* custom */
-
-
 img {
     max-width: 100%;
 }
 
+/* custom */
 .jumbotron {
     padding: 0 !important;
     margin: 0 !important;
     background: #eeeee7 !important;
 }
 
-/* panel 1 */
-nav a {
+.jumbotron nav a {
     color: #a8a8a8 !important;
 }
-nav a:hover {
+.jumbotron nav a:hover {
     color:#eeeee7 !important;
 }
-.hello {
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(168,168,168, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    /* border-color: rgb(255,102,203); */
+    border-color: rgb(168, 168, 168);
+  } 
+
+.jumbotron .hello {
     color: #a8a8a8;
     background-color: #323230;
 }
-.hello .card {
+.jumbotron .hello .card {
     background: #323230;
 }
-
+.jumbotron .hello p {
+    font-size: 1.7rem;
+}
 
 .text-container {
     color: #323230;
@@ -49,25 +53,23 @@ nav a:hover {
     color: #a8a8a8 !important;
 }
 
-.featured img {
-    height: 400px !important;
+.work, .skills-container {
+    max-width: 1200px !important;
+    margin: 0 auto;
 }
 
+.work .featured img {
+    height: 400px !important;
+}
 .work .featured img {
     height: 400px;
     object-fit: cover;
     border-radius: 0 !important;
 }
-
 .work .secondary img {
     height: 250px;
     object-fit: cover;
     border-radius: 0 !important;
-}
-
-.work, .skills-container {
-    max-width: 1200px !important;
-    margin: 0 auto;
 }
 
 .work .card {
@@ -83,11 +85,9 @@ nav a:hover {
     background: #323230;
     color: #a8a8a8;
 }
-
 .skills p {
     font-size: 1.2rem;
 }
-
 .skills .webdev-icons i {
     font-size: 3rem;
 }
@@ -98,9 +98,6 @@ nav a:hover {
     /* height: 100%; */
 }
 .skills-card .card-header {
-    font-size: 1.3rem;
-}
-
-@media screen and (max-width:991px) {
-
+    font-size: 1.2rem;
+    text-align: center;
 }
