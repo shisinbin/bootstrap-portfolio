@@ -22,14 +22,13 @@ img {
 .jumbotron nav a:hover {
     color:#eeeee7 !important;
 }
-.custom-toggler .navbar-toggler-icon {
+.jumbotron .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(168,168,168, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+}
   
-  .custom-toggler.navbar-toggler {
-    /* border-color: rgb(255,102,203); */
+.jumbotron .custom-toggler.navbar-toggler {
     border-color: rgb(168, 168, 168);
-  } 
+} 
 
 .jumbotron .hello {
     color: #a8a8a8;
@@ -92,12 +91,12 @@ img {
     font-size: 3rem;
 }
 
-.skills-card {
+.skills .skills-card {
     color:#323230;
     margin: 20px;
     /* height: 100%; */
 }
-.skills-card .card-header {
+.skills .skills-card .card-header {
     font-size: 1.2rem;
     text-align: center;
 }

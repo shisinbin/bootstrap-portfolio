@@ -4,9 +4,6 @@
 <head>
   <!-- required meta tags -->
   <meta charset="UTF-8">
-  <!-- following comes with emmet but is not included in the starter template on the bootsrap website, and in fact might act in conflict, so i'm commenting out -->
-  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- bootstrap 4.6 CSS -->
@@ -29,9 +26,10 @@
 
 <body>
 
-  <div class="jumbotron jumbotron-fluid">
+  <!-- hero -->
+  <section class="jumbotron jumbotron-fluid">
 
-    <section class="container-fluid">
+    <div class="container-fluid">
 
       <div class="row">
 
@@ -39,30 +37,10 @@
         <div class="col-lg-4 col-md-6 col-sm-12 p-0 hello d-flex flex-column">
 
           <!-- navbar -->
-          <!-- <nav class="navbar navbar-expand-lg navbar-light pl-5 pt-3">
-            <div class="collapse navbar-collapse">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#skills">Skills</a>
-                </li>
-              </ul>
-            </div>
-          </nav> -->
-
-          <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
+          <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light pl-4 pt-4">
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-          
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
@@ -81,6 +59,7 @@
             </div>
           </nav>
 
+          <!-- hello -->
           <div class="flex-grow-1 d-flex">
             <div class="card align-self-center p-5 border-0">
               <div class="card-body">
@@ -110,9 +89,6 @@
               <div class="text-container p-5 h-100 d-flex flex-column" id="contact">
                 <h2>Get in Contact</h2>
                 <div class="flex-grow-1 d-flex justify-content-between align-items-center">
-                  <!-- <img src="./assets/img/github.png" width="10%" alt="">
-                <img src="./assets/img/email2.png" width="10%" alt="">
-                <img src="./assets/img/twitter-sign.png" width="10%" alt=""> -->
                   <a href="https://github.com/shisinbin"><i class="fab fa-github-square"></i></a>
                   <a href="mailto:sb1664@gmail.com"><i class="fas fa-envelope-square"></i></a>
                   <a href="https://twitter.com/shisinbin"><i class="fab fa-twitter-square"></i></a>
@@ -127,15 +103,15 @@
         </div>
       </div>
 
-    </section>
+    </div>
 
-  </div>
+  </section>
 
   <!-- work -->
-  <section class="container work mw-75">
+  <section class="container work mw-75" id="portfolio">
 
     <div>
-      <h1 class="text-center mt-5 mb-3" id="portfolio">Portfolio</h1>
+      <h1 class="text-center mt-5 mb-3">Portfolio</h1>
     </div>
 
     <div class="row">
@@ -146,7 +122,7 @@
         <div class="card featured mb-4 rounded-0">
           <div class="row no-gutters">
             <div class="col-lg-6 col-md-6 col-sm-12">
-              <a href="https://shisinbin.github.io/challenge_01/"><img src="assets/img/refactor.png" class="card-img"
+              <a href="https://shisinbin.github.io/challenge_01/"><img src="./assets/img/refactor.png" class="card-img"
                   alt="refactoring code image"></a>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 d-flex">
@@ -167,7 +143,7 @@
       <!-- secondary -->
       <div class="secondary col-lg-3 col-md-6 col-sm-12 mb-3 rounded-0">
         <div class="card rounded-0">
-          <img src="assets/img/study_guide.png" class="card-img-top" alt="study guide image">
+          <img src="./assets/img/study_guide.png" class="card-img-top" alt="study guide image">
           <div class="card-body">
             <h5 class="card-title">Study Guide</h5>
             <p class="card-text">A study guide webpage covering some Web Dev basics.</p>
@@ -179,7 +155,7 @@
 
       <div class="secondary col-lg-3 col-md-6 col-sm-12 mb-3">
         <div class="card rounded-0">
-          <img src="assets/img/portfolio_grid.png" class="card-img-top" alt="portfolio webpage image">
+          <img src="./assets/img/portfolio_grid.png" class="card-img-top" alt="portfolio webpage image">
           <div class="card-body">
             <h5 class="card-title">CSS Grid Portfolio</h5>
             <p class="card-text">A portfolio webpage created using CSS Grid and Flexbox.</p>
@@ -191,7 +167,7 @@
 
       <div class="secondary col-lg-3 col-md-6 col-sm-12 mb-3">
         <div class="card rounded-0">
-          <img src="assets/img/library.png" class="card-img-top" alt="library web app image">
+          <img src="./assets/img/library.png" class="card-img-top" alt="library web app image">
           <div class="card-body">
             <h5 class="card-title">Library Web App</h5>
             <p class="card-text">A fully built and deployed library web app created using Django.</p>
@@ -217,9 +193,9 @@
 
   <!-- skills -->
   <section class="container-fluid skills py-5 px-0">
-    <div class="skills-container">
+    <div class="skills-container" id="skills">
 
-      <h1 class="text-center" id="skills">Skills</h1>
+      <h1 class="text-center">Skills</h1>
 
       <div class="row my-5 webdev-icons">
         <div class="col d-flex justify-content-center">
