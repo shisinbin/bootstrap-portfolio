@@ -1,4 +1,4 @@
-# Unit 3 Challenge: Bootstrap portfolio webpage
+# Unit 3 Challenge: Bootstrap portfolio
 
 ## Description
 
