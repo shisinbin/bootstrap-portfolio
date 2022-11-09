@@ -1,8 +1,15 @@
+/* variables */
+:root {
+    --charcoal-color: #323230;
+    --battleship-color: #a8a8a8;
+    --bone-color: #eeeee7;
+}
+
 /* resets */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: #eeeee7;
+    background: var(--bone-color);
 }
 
 img {
@@ -13,43 +20,43 @@ img {
 .jumbotron {
     padding: 0 !important;
     margin: 0 !important;
-    background: #eeeee7 !important;
+    background: var(--bone-color) !important;
 }
 
 .jumbotron nav a {
-    color: #a8a8a8 !important;
+    color: var(--battleship-color) !important;
 }
 .jumbotron nav a:hover {
-    color:#eeeee7 !important;
+    color:var(--bone-color) !important;
 }
+
 .jumbotron .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(168,168,168, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-  
 .jumbotron .custom-toggler.navbar-toggler {
     border-color: rgb(168, 168, 168);
 } 
 
 .jumbotron .hello {
-    color: #a8a8a8;
-    background-color: #323230;
+    color: var(--battleship-color);
+    background-color: var(--charcoal-color);
 }
 .jumbotron .hello .card {
-    background: #323230;
+    background: var(--charcoal-color);
 }
 .jumbotron .hello p {
     font-size: 1.7rem;
 }
 
 .text-container {
-    color: #323230;
+    color: var(--charcoal-color);
 }
 .text-container a {
-    color: #323230;
+    color: var(--charcoal-color);
     font-size: 3rem;
 }
 .text-container a:hover {
-    color: #a8a8a8 !important;
+    color: var(--battleship-color) !important;
 }
 
 .work, .skills-container {
@@ -76,13 +83,13 @@ img {
 }
 .work .card:hover {
     transform: scale(1.02);
-    box-shadow: 0 2px 5px #aaa;
+    box-shadow: 0 2px 5px var(--battleship-color);
 }
 
 .skills {
     margin-top: 30px;
-    background: #323230;
-    color: #a8a8a8;
+    background: var(--charcoal-color);
+    color: var(--battleship-color);
 }
 .skills p {
     font-size: 1.2rem;
@@ -92,7 +99,7 @@ img {
 }
 
 .skills .skills-card {
-    color:#323230;
+    color:var(--charcoal-color);
     margin: 20px;
     /* height: 100%; */
 }
